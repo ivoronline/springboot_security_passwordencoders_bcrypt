@@ -3,17 +3,15 @@ package com.ivornline.springboot_security_passwordencoders_bcrypt.controllers;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class MyController {
 
   //====================================================================
   // ENCODE PASSWORD
   //====================================================================
-  @ResponseBody
   @RequestMapping("/EncodePassword")
   public String encodePassword(@RequestParam String password) {
 
@@ -31,7 +29,6 @@ public class MyController {
   //====================================================================
   // HELLO
   //====================================================================
-  @ResponseBody
   @RequestMapping("/Hello")
   public String hello() {
     return "Hello from Controller";
