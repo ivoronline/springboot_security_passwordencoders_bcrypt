@@ -1,4 +1,4 @@
-package com.ivornline;
+package com.ivoronline;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
