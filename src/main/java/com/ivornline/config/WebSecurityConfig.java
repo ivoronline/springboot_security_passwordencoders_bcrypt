@@ -1,4 +1,4 @@
-package com.ivornline.springboot_security_passwordencoders_bcrypt.config;
+package com.ivornline.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

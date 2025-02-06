@@ -1,4 +1,4 @@
-package com.ivornline.springboot_security_passwordencoders_bcrypt.controllers;
+package com.ivornline.controllers;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;

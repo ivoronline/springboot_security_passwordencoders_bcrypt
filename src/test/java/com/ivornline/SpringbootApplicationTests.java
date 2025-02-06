@@ -1,10 +1,10 @@
-package com.ivornline.springboot_security_passwordencoders_bcrypt;
+package com.ivornline;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootSecurityPasswordencodersBcryptApplicationTests {
+class SpringbootApplicationTests {
 
   @Test
   void contextLoads() {
